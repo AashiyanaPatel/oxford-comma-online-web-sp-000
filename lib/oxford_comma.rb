@@ -7,3 +7,8 @@ def oxford_comma(array)
     arr.each.collect.do |value|
       if value == arr[-1]
         arr[-1] = "and" << value
+      end
+    end
+    arr.join(",")
+  end
+end
